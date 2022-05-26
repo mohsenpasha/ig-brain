@@ -1,0 +1,15 @@
+{
+  "name": "ig-brain",
+  "description": "get instagram accounts data from social blade",
+  "version": "1",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "images/ico.png",
+    "default_popup": "index.html"
+  }
+}
